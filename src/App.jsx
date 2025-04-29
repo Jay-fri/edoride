@@ -217,6 +217,8 @@ export default function App() {
       amount: amount / 100, // Convert back to naira
       isValid: true,
       userId: user.id,
+      userName: user.name,
+      userEmail: user.email,
     };
 
     // Add to transactions
